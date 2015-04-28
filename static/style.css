@@ -1,0 +1,133 @@
+.navbar.navbar-default{
+	background-color: rgba(255,255,255,0.3);
+	/*background: transparent;*/
+	height: 60px;
+	position: fixed;
+	top: 0;
+	transition: top 0.2s ease-in-out;
+	border: none;
+	z-index: 1;
+	width: 100%;
+}
+.navbar.navbar-default div ul li a{
+	color: white;
+}
+header{
+	background-color: black;
+	color: white;
+	height: 60px;
+}
+header ul{
+	float: right;
+	display: inline-block;
+}
+header li{
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+}
+header a{
+	color: white;
+}
+header a:hover{
+	text-decoration: none;
+	color: gray;
+}
+.homelink{
+	display: inline-block;
+	padding: 20px;
+}
+/*.nav.navbar-nav.navbar-right a:hover {
+	border-bottom: 2px solid white;
+}*/
+#wrapper{
+	min-height: 100%;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+.nav-up{
+	top:-60px;
+}
+#top{
+	background-image: url("./../images/u8GBf8bBSGy3YCIhyZeI_IMG_8737.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 30%;
+}
+#main{
+	text-align: center;
+}
+#marketing{
+	height: 350px;
+	width: 400px;
+	background-image: url("./../images/www.madebyvadim.com.jpg");
+	background-position: center center;
+	background-size: cover;
+	margin: 0 auto;
+	margin-bottom: 10%;
+	-webkit-box-shadow: 4px 4px 4px black;
+    -moz-box-shadow: 4px 4px 4px black;
+	box-shadow: 4px 4px 4px black;
+	transition: all 0.4s ease;
+}
+.mask{
+	/*position: absolute;*/
+	height: 350px;
+	width: 400px;
+	border: 175px solid rgba(0, 0, 0, 0.7);
+	box-sizing:border-box;
+	opacity:1;
+	visibility:visible;
+	transition:all 0.3s ease-in-out;
+}
+#marketing:hover .mask{
+	opacity: 0;
+	border:0px solid rgba(0,0,0,0.7);
+	visibility:hidden;
+}
+#coding{
+	height: 350px;
+	width: 400px;
+	background-image: url("./../images/LV2IUQNTZ5.jpg");
+	background-position: center center;
+	background-size: cover;
+	margin: 0 auto;
+	margin-bottom: 10%;
+	-webkit-box-shadow: 4px 4px 4px black;
+    -moz-box-shadow: 4px 4px 4px black;
+	box-shadow: 4px 4px 4px black;
+	transition: all 0.4s ease;
+}
+#coding:hover .mask{
+	opacity: 0;
+	border:0px solid rgba(0,0,0,0.7);
+	visibility:hidden;
+}
+.adimage img{
+	margin: auto;
+	height: 540px;
+	width: 370px;
+}
+.adimage h5{
+	font-style: italic;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #101010;
+	color: white;
+	text-align: center;
+}
+.footer h5{
+	color: gray;
+	margin-top: 20px;
+}

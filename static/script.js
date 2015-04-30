@@ -35,8 +35,17 @@ $(document).ready(function(){
 	}
 	$(function () {
 		$('.tlt').textillate({
-			loop:true
+			loop:true,
+			minDisplayTime: 50
 		});
+		$('.readmore').textillate({
+			loop:false
+		})
+	})
+	$("#readmore").click(function(){
+		$('html, body').animate({
+		    scrollTop: $("#main").offset().top
+		}, 'slow');
 	})
 	$(window).load(function() {
 	  // The slider being synced must be initialized first
